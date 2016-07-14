@@ -1,0 +1,165 @@
+# depslib dependency file v1.0
+1467631562 source:c:\users\lex\desktop\Программирование\gui\project\button.c
+	"Button.h"
+
+1467631532 c:\users\lex\desktop\Программирование\gui\project\button.h
+
+1467631564 source:c:\users\lex\desktop\Программирование\gui\src\button.c
+	"Button.h"
+
+1467631534 c:\users\lex\desktop\Программирование\gui\src\button.h
+
+1468513653 source:c:\users\lex\desktop\Программирование\gui\src\main.c
+	"Input.h"
+	"Texture.h"
+	<GL/gl.h>
+
+1467791128 source:c:\users\lex\desktop\Программирование\gui\src\input.c
+	"Input.h"
+	<windows.h>
+	<GL/glx.h>
+
+1467642836 c:\users\lex\desktop\Программирование\gui\src\input.h
+
+1467806984 source:c:\users\lex\desktop\Программирование\gui\src\graphic.c
+	"Graphic.h"
+	<windows.h>
+	<GL/gl.h>
+
+1467787020 c:\users\lex\desktop\Программирование\gui\src\graphic.h
+
+1467789346 source:c:\users\lex\desktop\Программирование\gui\src\thread.c
+	"Thread.h"
+	<pthread.h>
+
+1467789338 c:\users\lex\desktop\Программирование\gui\src\thread.h
+
+1467802454 c:\users\lex\desktop\Программирование\gui\src\extends.h
+	<stdlib.h>
+
+1467631564 source:d:\Программирование\gui\src\button.c
+	"Button.h"
+
+1467631534 d:\Программирование\gui\src\button.h
+
+1467806983 source:d:\Программирование\gui\src\graphic.c
+	"Graphic.h"
+	<windows.h>
+	<GL/gl.h>
+
+1467787020 d:\Программирование\gui\src\graphic.h
+
+1467791128 source:d:\Программирование\gui\src\input.c
+	"Input.h"
+	<windows.h>
+	<GL/glx.h>
+
+1467642836 d:\Программирование\gui\src\input.h
+
+1467807594 source:d:\Программирование\gui\src\main.c
+	"Input.h"
+	"Texture.h"
+	<GL/gl.h>
+
+1467789346 source:d:\Программирование\gui\src\thread.c
+	"Thread.h"
+	<pthread.h>
+
+1467789338 d:\Программирование\gui\src\thread.h
+
+1467801072 source:d:\Программирование\gui\src\teture.c
+	"Texture.h"
+	<GL/gl.h>
+
+1467806172 d:\Программирование\gui\src\texture.h
+	<GL/gl.h>
+
+1467807214 source:d:\Программирование\gui\src\texture.c
+	"Texture.h"
+	"Image.h"
+
+1467807241 source:d:\Программирование\gui\src\image.c
+	"Image.h"
+	"extends.h"
+	<stdio.h>
+
+1467804000 d:\Программирование\gui\src\image.h
+
+1467802453 d:\Программирование\gui\src\extends.h
+	<stdlib.h>
+
+1467811514 source:d:\Программирование\gui\src\tga.c
+	"TGA.h"
+	"extends.h"
+	"stream.h"
+	"Image.h"
+	<GL/gl.h>
+
+1467801476 d:\Программирование\gui\src\tga.h
+	"Image.h"
+
+1467802515 d:\Программирование\gui\src\stream.h
+
+1467802613 source:d:\Программирование\gui\src\stream.c
+	"stream.h"
+
+1468519175 source:c:\users\lex\desktop\Программирование\gui\src\image.c
+	"Image.h"
+	"extends.h"
+	<stdio.h>
+
+1468519145 c:\users\lex\desktop\Программирование\gui\src\image.h
+
+1468513364 c:\users\lex\desktop\Программирование\gui\src\texture.h
+	<GL/gl.h>
+	"Image.h"
+
+1468512337 source:c:\users\lex\desktop\Программирование\gui\src\stream.c
+	"stream.h"
+
+1468512352 c:\users\lex\desktop\Программирование\gui\src\stream.h
+
+1468513336 source:c:\users\lex\desktop\Программирование\gui\src\texture.c
+	"Texture.h"
+
+1468509855 source:c:\users\lex\desktop\Программирование\gui\src\tga.c
+	"TGA.h"
+	"extends.h"
+	"stream.h"
+	"Image.h"
+	<GL/gl.h>
+
+1467801478 c:\users\lex\desktop\Программирование\gui\src\tga.h
+	"Image.h"
+
+1467136132 source:c:\users\lex\desktop\Программирование\gui\src\array.c
+	"array.h"
+	"extends.h"
+
+1467134636 c:\users\lex\desktop\Программирование\gui\src\array.h
+
+1468510721 source:c:\users\lex\desktop\Программирование\gui\src\gui\gui.c
+	"GUI.h"
+
+1468512182 c:\users\lex\desktop\Программирование\gui\src\gui\gui.h
+	"../array.h"
+
+1468510555 source:c:\users\lex\desktop\Программирование\gui\src\gui\window.c
+	"Window.h"
+
+1468510523 c:\users\lex\desktop\Программирование\gui\src\gui\window.h
+
+1468519055 source:c:\users\lex\desktop\Программирование\gui\src\font.c
+	"Font.h"
+	"stream.h"
+	"extends.h"
+
+1468512174 c:\users\lex\desktop\Программирование\gui\src\font.h
+	<GL/gl.h>
+	"Image.h"
+
+1468518968 source:c:\users\lex\desktop\Программирование\gui\src\gui\button.c
+	"Button.h"
+
+1468518941 c:\users\lex\desktop\Программирование\gui\src\gui\button.h
+

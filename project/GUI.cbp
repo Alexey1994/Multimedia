@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="GUI" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/GUI" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/GUI" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Linker>
+			<Add library="opengl32" />
+			<Add library="glu32" />
+			<Add library="gdi32" />
+		</Linker>
+		<Unit filename="../src/Button.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../src/Button.h" />
+		<Unit filename="../src/Font.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="../src/Font.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="../src/GUI/GUI.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../src/GUI/GUI.h" />
+		<Unit filename="../src/GUI/Window.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="../src/GUI/Window.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="../src/Graphic.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../src/Graphic.h" />
+		<Unit filename="../src/Image.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../src/Image.h" />
+		<Unit filename="../src/Input.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../src/Input.h" />
+		<Unit filename="../src/TGA.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../src/TGA.h" />
+		<Unit filename="../src/Texture.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../src/Texture.h" />
+		<Unit filename="../src/Thread.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../src/Thread.h" />
+		<Unit filename="../src/array.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../src/array.h" />
+		<Unit filename="../src/extends.h" />
+		<Unit filename="../src/main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../src/stream.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../src/stream.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
