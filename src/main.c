@@ -3,11 +3,13 @@
 #include <GL/gl.h>
 #include <stdio.h>
 #include "RLE.h"
+#include "Font.h"
 
 
 GLuint  texture_id;
 Image  *image;
 FILE   *f;
+Font   *font;
 
 void draw()
 {
@@ -15,16 +17,20 @@ void draw()
 
     if(once)
     {
-        f=fopen("a.tga", "rb");
-        image=load_image(f, fgetc);
-        texture_id=load_texture(image);
-        free_image(image);
+        //f=fopen("a.tga", "rb");
+        //image=load_image(f, fgetc);
+        //texture_id=load_texture(image);
+        //free_image(image);
+        //fclose(f);
+
+        f=fopen("a.font", "rb");
+        font=load_font(f, fgetc);
         fclose(f);
 
         once=0;
     }
 
-    glBindTexture(GL_TEXTURE_2D, texture_id);
+    glBindTexture(GL_TEXTURE_2D, font->texture_id);
     glColor3f(1,1,1);
     glBegin(GL_QUADS);
         glTexCoord2f(0.0f, 0.0f); glVertex2f(0.0f, 0.0f);
@@ -68,6 +74,12 @@ int main()
     f=fopen("out.rle", "rb");
     decompress_RLE(36590, f, fgetc, fgetc, f2, write_byte);
     */
+
+    Font font;
+    Image *image=load_image(fopen("a.tga", "rb"), fgetc);
+    f=fopen("a.font", "wb");
+    save_font(image, &font, f, write_byte);
+    fclose(f);
 
     init_graphic(draw);
 

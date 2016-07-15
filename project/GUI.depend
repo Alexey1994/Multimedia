@@ -43,7 +43,7 @@
 
 1467631534 d:\Программирование\gui\src\button.h
 
-1467806984 source:d:\Программирование\gui\src\graphic.c
+1468585305 source:d:\Программирование\gui\src\graphic.c
 	"Graphic.h"
 	<windows.h>
 	<GL/gl.h>
@@ -57,12 +57,13 @@
 
 1467642836 d:\Программирование\gui\src\input.h
 
-1468578868 source:d:\Программирование\gui\src\main.c
+1468585206 source:d:\Программирование\gui\src\main.c
 	"Input.h"
 	"Texture.h"
 	<GL/gl.h>
 	<stdio.h>
 	"RLE.h"
+	"Font.h"
 
 1467789346 source:d:\Программирование\gui\src\thread.c
 	"Thread.h"
@@ -78,7 +79,7 @@
 	<GL/gl.h>
 	"Image.h"
 
-1468513338 source:d:\Программирование\gui\src\texture.c
+1468585080 source:d:\Программирование\gui\src\texture.c
 	"Texture.h"
 
 1468519176 source:d:\Программирование\gui\src\image.c
@@ -177,10 +178,11 @@
 
 1467134636 d:\Программирование\gui\src\array.h
 
-1468525262 source:d:\Программирование\gui\src\font.c
+1468585748 source:d:\Программирование\gui\src\font.c
 	"Font.h"
 	"stream.h"
 	"extends.h"
+	"RLE.h"
 
 1468512176 d:\Программирование\gui\src\font.h
 	<GL/gl.h>
@@ -202,7 +204,7 @@
 
 1468510524 d:\Программирование\gui\src\gui\window.h
 
-1468579976 source:d:\Программирование\gui\src\rle.c
+1468584184 source:d:\Программирование\gui\src\rle.c
 	"RLE.h"
 
 1468575567 d:\Программирование\gui\src\rle.h
