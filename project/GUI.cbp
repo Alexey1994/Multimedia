@@ -47,6 +47,13 @@
 		<Unit filename="../src/Font.h">
 			<Option target="Debug" />
 		</Unit>
+		<Unit filename="../src/GUI/Button.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="../src/GUI/Button.h">
+			<Option target="Debug" />
+		</Unit>
 		<Unit filename="../src/GUI/GUI.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -70,6 +77,13 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="../src/Input.h" />
+		<Unit filename="../src/RLE.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="../src/RLE.h">
+			<Option target="Debug" />
+		</Unit>
 		<Unit filename="../src/TGA.c">
 			<Option compilerVar="CC" />
 		</Unit>

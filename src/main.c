@@ -2,6 +2,7 @@
 #include "Texture.h"
 #include <GL/gl.h>
 #include <stdio.h>
+#include "RLE.h"
 
 
 GLuint  texture_id;
@@ -34,8 +35,40 @@ void draw()
 }
 
 
+void write_byte(char *source, char data)
+{
+    fputc(data, source);
+}
+
 int main()
 {
+    /*
+    char buffer;
+    int  count=8;
+
+    f=fopen("GUI.cbp", "rb");
+
+    printf("%x", stream_read_bits(f, fgetc, 8, &buffer, &count));
+    printf(" %x", stream_read_bits(f, fgetc, 8, &buffer, &count));
+    printf(" %x", stream_read_bits(f, fgetc, 8, &buffer, &count));
+    printf(" %x", stream_read_bits(f, fgetc, 8, &buffer, &count));
+    fclose(f);
+    */
+
+    /*
+    FILE *f2;
+
+    f2=fopen("a.tga", "rb");
+    f=fopen("out.rle", "wb");
+    compress_RLE(0, 36590, f2, fgetc, f, write_byte, write_byte);
+    fclose(f);
+    fclose(f2);
+
+    f2=fopen("original", "wb");
+    f=fopen("out.rle", "rb");
+    decompress_RLE(36590, f, fgetc, fgetc, f2, write_byte);
+    */
+
     init_graphic(draw);
 
     for(;;){}

@@ -9,10 +9,11 @@
 
 1467631534 c:\users\lex\desktop\Программирование\gui\src\button.h
 
-1468513653 source:c:\users\lex\desktop\Программирование\gui\src\main.c
+1468523585 source:c:\users\lex\desktop\Программирование\gui\src\main.c
 	"Input.h"
 	"Texture.h"
 	<GL/gl.h>
+	<stdio.h>
 
 1467791128 source:c:\users\lex\desktop\Программирование\gui\src\input.c
 	"Input.h"
@@ -42,7 +43,7 @@
 
 1467631534 d:\Программирование\gui\src\button.h
 
-1467806983 source:d:\Программирование\gui\src\graphic.c
+1467806984 source:d:\Программирование\gui\src\graphic.c
 	"Graphic.h"
 	<windows.h>
 	<GL/gl.h>
@@ -56,10 +57,12 @@
 
 1467642836 d:\Программирование\gui\src\input.h
 
-1467807594 source:d:\Программирование\gui\src\main.c
+1468578868 source:d:\Программирование\gui\src\main.c
 	"Input.h"
 	"Texture.h"
 	<GL/gl.h>
+	<stdio.h>
+	"RLE.h"
 
 1467789346 source:d:\Программирование\gui\src\thread.c
 	"Thread.h"
@@ -71,36 +74,36 @@
 	"Texture.h"
 	<GL/gl.h>
 
-1467806172 d:\Программирование\gui\src\texture.h
+1468513366 d:\Программирование\gui\src\texture.h
 	<GL/gl.h>
-
-1467807214 source:d:\Программирование\gui\src\texture.c
-	"Texture.h"
 	"Image.h"
 
-1467807241 source:d:\Программирование\gui\src\image.c
+1468513338 source:d:\Программирование\gui\src\texture.c
+	"Texture.h"
+
+1468519176 source:d:\Программирование\gui\src\image.c
 	"Image.h"
 	"extends.h"
 	<stdio.h>
 
-1467804000 d:\Программирование\gui\src\image.h
+1468519146 d:\Программирование\gui\src\image.h
 
-1467802453 d:\Программирование\gui\src\extends.h
+1467802454 d:\Программирование\gui\src\extends.h
 	<stdlib.h>
 
-1467811514 source:d:\Программирование\gui\src\tga.c
+1468509856 source:d:\Программирование\gui\src\tga.c
 	"TGA.h"
 	"extends.h"
 	"stream.h"
 	"Image.h"
 	<GL/gl.h>
 
-1467801476 d:\Программирование\gui\src\tga.h
+1467801478 d:\Программирование\gui\src\tga.h
 	"Image.h"
 
-1467802515 d:\Программирование\gui\src\stream.h
+1468523152 d:\Программирование\gui\src\stream.h
 
-1467802613 source:d:\Программирование\gui\src\stream.c
+1468523446 source:d:\Программирование\gui\src\stream.c
 	"stream.h"
 
 1468519175 source:c:\users\lex\desktop\Программирование\gui\src\image.c
@@ -114,10 +117,10 @@
 	<GL/gl.h>
 	"Image.h"
 
-1468512337 source:c:\users\lex\desktop\Программирование\gui\src\stream.c
+1468523444 source:c:\users\lex\desktop\Программирование\gui\src\stream.c
 	"stream.h"
 
-1468512352 c:\users\lex\desktop\Программирование\gui\src\stream.h
+1468523151 c:\users\lex\desktop\Программирование\gui\src\stream.h
 
 1468513336 source:c:\users\lex\desktop\Программирование\gui\src\texture.c
 	"Texture.h"
@@ -149,7 +152,7 @@
 
 1468510523 c:\users\lex\desktop\Программирование\gui\src\gui\window.h
 
-1468519055 source:c:\users\lex\desktop\Программирование\gui\src\font.c
+1468525261 source:c:\users\lex\desktop\Программирование\gui\src\font.c
 	"Font.h"
 	"stream.h"
 	"extends.h"
@@ -162,4 +165,45 @@
 	"Button.h"
 
 1468518941 c:\users\lex\desktop\Программирование\gui\src\gui\button.h
+
+1468526816 source:c:\users\lex\desktop\Программирование\gui\src\rle.c
+	"RLE.h"
+
+1468526806 c:\users\lex\desktop\Программирование\gui\src\rle.h
+
+1467136132 source:d:\Программирование\gui\src\array.c
+	"array.h"
+	"extends.h"
+
+1467134636 d:\Программирование\gui\src\array.h
+
+1468525262 source:d:\Программирование\gui\src\font.c
+	"Font.h"
+	"stream.h"
+	"extends.h"
+
+1468512176 d:\Программирование\gui\src\font.h
+	<GL/gl.h>
+	"Image.h"
+
+1468518970 source:d:\Программирование\gui\src\gui\button.c
+	"Button.h"
+
+1468518942 d:\Программирование\gui\src\gui\button.h
+
+1468510722 source:d:\Программирование\gui\src\gui\gui.c
+	"GUI.h"
+
+1468512184 d:\Программирование\gui\src\gui\gui.h
+	"../array.h"
+
+1468510556 source:d:\Программирование\gui\src\gui\window.c
+	"Window.h"
+
+1468510524 d:\Программирование\gui\src\gui\window.h
+
+1468579976 source:d:\Программирование\gui\src\rle.c
+	"RLE.h"
+
+1468575567 d:\Программирование\gui\src\rle.h
 

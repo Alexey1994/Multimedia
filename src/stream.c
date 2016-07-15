@@ -61,3 +61,44 @@ void stream_write(char *source, void(*write_byte)(char *source, char byte), char
     for(; length; buffer++,length--)
         write_byte(source, *buffer);
 }
+
+
+char stream_read_bits(char *source, char(*get_byte)(char *source), int length, char *buffer, int *count_buffer)
+{
+    int  i;
+    int  counter=0;
+    char bits=0;
+
+    for(; length; length--, counter++, (*count_buffer)++)
+    {
+        if(*count_buffer==8)
+        {
+            *buffer=get_byte(source);
+            *count_buffer=0;
+        }
+
+        bits|=(1&(*buffer>>*count_buffer))<<counter;
+    }
+
+    return bits;
+}
+
+
+char stream_write_bits(char bits, char *source, void(*write_byte)(char *source, char data), int length, char *buffer, int *count_buffer)
+{
+    int  i;
+    int  counter=0;
+
+    for(; length; length--, counter++, (*count_buffer)++)
+    {
+        if(*count_buffer==8)
+        {
+            write_byte(source, *buffer);
+            *count_buffer=0;
+        }
+
+        *buffer|=(1&(bits>>counter))<<*count_buffer;
+    }
+
+    return bits;
+}
