@@ -57,7 +57,7 @@
 
 1467642836 d:\Программирование\gui\src\input.h
 
-1468585206 source:d:\Программирование\gui\src\main.c
+1468587592 source:d:\Программирование\gui\src\main.c
 	"Input.h"
 	"Texture.h"
 	<GL/gl.h>
@@ -104,7 +104,7 @@
 
 1468523152 d:\Программирование\gui\src\stream.h
 
-1468523446 source:d:\Программирование\gui\src\stream.c
+1468587486 source:d:\Программирование\gui\src\stream.c
 	"stream.h"
 
 1468519175 source:c:\users\lex\desktop\Программирование\gui\src\image.c
@@ -178,7 +178,7 @@
 
 1467134636 d:\Программирование\gui\src\array.h
 
-1468585748 source:d:\Программирование\gui\src\font.c
+1468587372 source:d:\Программирование\gui\src\font.c
 	"Font.h"
 	"stream.h"
 	"extends.h"

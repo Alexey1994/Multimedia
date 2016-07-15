@@ -74,13 +74,13 @@ int main()
     f=fopen("out.rle", "rb");
     decompress_RLE(36590, f, fgetc, fgetc, f2, write_byte);
     */
-
+/*
     Font font;
     Image *image=load_image(fopen("a.tga", "rb"), fgetc);
     f=fopen("a.font", "wb");
     save_font(image, &font, f, write_byte);
     fclose(f);
-
+*/
     init_graphic(draw);
 
     for(;;){}

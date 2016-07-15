@@ -14,8 +14,9 @@ typedef struct
 PixelReader;
 
 static char read_pixel(PixelReader *reader)
-{
-    return stream_read_bits(reader->source, reader->get_byte, 1, &reader->buffer, &reader->count_buffer);
+{char num=stream_read_bits(reader->source, reader->get_byte, 1, &reader->buffer, &reader->count_buffer);
+//printf("%d ", num);
+    return num;
 }
 
 static char read_number(PixelReader *reader)
@@ -48,12 +49,18 @@ Font* load_font(char *source, char (*get_byte)(char *source))
     PixelReader  reader;
     PixelWriter  writer;
     unsigned int image_size;
+    int          i;
+    int          j;
 
     if(!stream_next("FONT", source, get_byte))
         return 0;
 
     font=new(Font);
-
+/*
+    for(i=0; i<256; i++)
+        for(j=0; j<4; j++)
+            stream_get_uint(source, get_byte);
+*/
     image.width  = stream_get_uint(source, get_byte);
     image.height = stream_get_uint(source, get_byte);
     image.bpp    = GL_RGBA;
@@ -119,15 +126,16 @@ void save_font(Image *image, Font *font, char *source, void(*write_byte)(char *s
     stream_write(source, write_byte, "FONT", 4);
     stream_write(source, write_byte, &image->width, 4);
     stream_write(source, write_byte, &image->height, 4);
-
+/*
     for(i=0; i<256; i++)
         for(j=0; j<4; j++)
             stream_write(source, write_byte, &font->coords[i][j], 4);
-
+*/
     pixel_in.current_pixel = 3;
     pixel_in.pixels        = image->data;
 
     pixel_out.count_buffer = 8;
+    pixel_out.buffer       = 0;
     pixel_out.source       = source;
     pixel_out.write_byte   = write_byte;
 

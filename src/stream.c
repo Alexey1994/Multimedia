@@ -95,6 +95,7 @@ char stream_write_bits(char bits, char *source, void(*write_byte)(char *source, 
         {
             write_byte(source, *buffer);
             *count_buffer=0;
+            *buffer=0;
         }
 
         *buffer|=(1&(bits>>counter))<<*count_buffer;
